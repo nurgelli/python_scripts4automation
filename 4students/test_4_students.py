@@ -14,9 +14,26 @@ else:
         with open('quiz_data.json', 'r') as file:
             data = json.load(file)
         print('Let\'s jump in!')
-        for q in data.values():
-            random_questions = random.sample(q, 1)
-        print(random_questions)
+        
+        def get_quiz():
+            questions = data['questions']
+            random.shuffle(questions)
+            selected_question = questions[:1]
+            score = 0
+            for question in selected_question:
+                print(question['question'])
+                for option in question['options']:
+                    print(option)
+                student_answer = input("Your answer (just enter the Letter): ").strip().upper()
+                if student_answer != question['answer']:
+                    print('Wrong answer, try again!')
+                    sys.exit()
+                else:
+                    print("Well done!")
+                    score += 1
+                    
+                
+            print(f'Your score: {score}/1')
     except FileNotFoundError:
         print(f'The file was not found')
     except json.JSONDecodeError:
@@ -24,6 +41,7 @@ else:
     except Exception as e:
         print(f'An unexpected error occured: {e}')
 
-
+while True:
+    get_quiz()
 
 file.close()
