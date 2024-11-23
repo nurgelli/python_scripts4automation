@@ -1,1 +1,2 @@
-# scripts_in_python
+# Hey there!
+## Test prepared for students!
