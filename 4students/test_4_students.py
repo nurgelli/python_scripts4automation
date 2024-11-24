@@ -41,7 +41,7 @@ file.close()
 
 while True:
     get_quiz()
-    retry = input().strip()
+    retry = input('Press ENTER to continues or "exit" to quit: ').strip()
     if retry == '':
         print("Pressed Enter! Continuing...")
     elif retry == 'exit':
