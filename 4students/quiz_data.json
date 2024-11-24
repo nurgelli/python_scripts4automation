@@ -1,24 +1,419 @@
 {
-
     "questions": [
         {
             "id": 1,
-            "question": "What is the capital of Germany?",
-            "options": ["A. Berlin", "B. Madrid", "C. Paris", "D. Rome"],
-            "answer": "A"
+            "question": "What is the latest version of Python as of 2024?",
+            "options": ["A. Python 3.9", "B. Python 3.10", "C. Python 3.11", "D. Python 3.12"],
+            "answer": "D"
         },
         {
             "id": 2,
-            "question": "Which planet is known as the Red Planet?",
-            "options": ["A. Earth", "B. Mars", "C. Venus", "D. Jupiter"],
-            "answer": "B"
+            "question": "Which of the following is a Python framework used for web development?",
+            "options": ["A. Flask", "B. Django", "C. Pyramid", "D. All of the above"],
+            "answer": "D"
         },
         {
             "id": 3,
-            "question": "What is the capital of France?",
-            "options": ["A. London", "B. Madrid", "C. Paris", "D. Amsterdam"],
+            "question": "Which Python keyword is used to define a function?",
+            "options": ["A. def", "B. func", "C. function", "D. define"],
+            "answer": "A"
+        },
+        {
+            "id": 4,
+            "question": "What does the 'pip' command do in Python?",
+            "options": ["A. Installs Python packages", "B. Runs a Python script", "C. Creates virtual environments", "D. Debugs Python code"],
+            "answer": "A"
+        },
+        {
+            "id": 5,
+            "question": "Which of the following data types is mutable in Python?",
+            "options": ["A. Tuple", "B. List", "C. String", "D. Dictionary"],
+            "answer": "B"
+        },
+        {
+            "id": 6,
+            "question": "Which of the following Python libraries is used for data analysis?",
+            "options": ["A. NumPy", "B. Pandas", "C. Matplotlib", "D. All of the above"],
+            "answer": "D"
+        },
+        {
+            "id": 7,
+            "question": "Which Python method is used to read a file?",
+            "options": ["A. read()", "B. open()", "C. file()", "D. load()"],
+            "answer": "A"
+        },
+        {
+            "id": 8,
+            "question": "What does the 'self' keyword represent in Python classes?",
+            "options": ["A. A reference to the class itself", "B. A reference to the instance of the class", "C. A variable in a function", "D. A function in a class"],
+            "answer": "B"
+        },
+        {
+            "id": 9,
+            "question": "Which of the following Python tools is used for version control?",
+            "options": ["A. Git", "B. Anaconda", "C. Virtualenv", "D. Jupyter"],
+            "answer": "A"
+        },
+        {
+            "id": 10,
+            "question": "Which of the following is NOT a valid Python data structure?",
+            "options": ["A. List", "B. Set", "C. Array", "D. Dictionary"],
             "answer": "C"
+        },
+        {
+            "id": 11,
+            "question": "Which of the following is a Python feature that allows the reuse of code?",
+            "options": ["A. Modules", "B. Functions", "C. Classes", "D. All of the above"],
+            "answer": "D"
+        },
+        {
+            "id": 12,
+            "question": "Which of the following Python functions is used to get the length of a list?",
+            "options": ["A. size()", "B. length()", "C. len()", "D. count()"],
+            "answer": "C"
+        },
+        {
+            "id": 13,
+            "question": "Which Python library is primarily used for scientific computing?",
+            "options": ["A. SciPy", "B. NumPy", "C. Matplotlib", "D. Flask"],
+            "answer": "B"
+        },
+        {
+            "id": 14,
+            "question": "What does the following Python code snippet do: `list = [1, 2, 3, 4]; list.pop()`?",
+            "options": ["A. Adds an element", "B. Removes and returns the last element", "C. Sorts the list", "D. Appends a new list"],
+            "answer": "B"
+        },
+        {
+            "id": 15,
+            "question": "Which of the following Python functions is used to handle exceptions?",
+            "options": ["A. handle()", "B. except()", "C. try()", "D. raise()"],
+            "answer": "C"
+        },
+        {
+            "id": 16,
+            "question": "Which of the following is true about Python dictionaries?",
+            "options": ["A. They are ordered", "B. They store data in key-value pairs", "C. They allow duplicates for keys", "D. They are mutable and ordered"],
+            "answer": "B"
+        },
+        {
+            "id": 17,
+            "question": "What does the `lambda` function in Python do?",
+            "options": ["A. Defines an anonymous function", "B. Defines a global variable", "C. Returns a string", "D. Executes the loop"],
+            "answer": "A"
+        },
+        {
+            "id": 18,
+            "question": "What does `import sys` do in Python?",
+            "options": ["A. Imports the Python standard library", "B. Imports a module for system-specific parameters and functions", "C. Initializes the system", "D. Starts the Python interpreter"],
+            "answer": "B"
+        },
+        {
+            "id": 19,
+            "question": "What is the purpose of `__init__` in Python?",
+            "options": ["A. Initializes the Python interpreter", "B. Initializes an object when a class is instantiated", "C. Declares a method", "D. Defines a class function"],
+            "answer": "B"
+        },
+        {
+            "id": 20,
+            "question": "Which Python library would you use to create interactive visualizations?",
+            "options": ["A. Matplotlib", "B. Seaborn", "C. Plotly", "D. Flask"],
+            "answer": "C"
+        },
+        {
+            "id": 21,
+            "question": "Which of the following statements about Python tuples is true?",
+            "options": ["A. Tuples are mutable", "B. Tuples are immutable", "C. Tuples can store any type of data", "D. Tuples are unordered"],
+            "answer": "B"
+        },
+        {
+            "id": 22,
+            "question": "Which of the following operators is used for exponentiation in Python?",
+            "options": ["A. ^", "B. **", "C. *", "D. /"],
+            "answer": "B"
+        },
+        {
+            "id": 23,
+            "question": "What will the following Python code snippet return: `round(3.14159, 2)`?",
+            "options": ["A. 3.14159", "B. 3.14", "C. 3", "D. 3.142"],
+            "answer": "B"
+        },
+        {
+            "id": 24,
+            "question": "What is the output of the following code snippet: `len('Hello')`?",
+            "options": ["A. 5", "B. Hello", "C. 4", "D. H"],
+            "answer": "A"
+        },
+        {
+            "id": 25,
+            "question": "What is the purpose of `__str__` method in a Python class?",
+            "options": ["A. To define a string representation of the object", "B. To define the constructor of the class", "C. To define a method to initialize the class", "D. To create an attribute"],
+            "answer": "A"
+        },
+        {
+            "id": 26,
+            "question": "Which of the following methods is used to add an item to the end of a list in Python?",
+            "options": ["A. append()", "B. insert()", "C. extend()", "D. add()"],
+            "answer": "A"
+        },
+        {
+            "id": 27,
+            "question": "Which Python function is used to get the type of an object?",
+            "options": ["A. type()", "B. id()", "C. object()", "D. class()"],
+            "answer": "A"
+        },
+        {
+            "id": 28,
+            "question": "What is the purpose of the `filter()` function in Python?",
+            "options": ["A. Filters out elements from a list", "B. Filters a dictionary", "C. Filters values from a file", "D. Filters specific keys from a tuple"],
+            "answer": "A"
+        },
+        {
+            "id": 29,
+            "question": "What does `break` do in a Python loop?",
+            "options": ["A. Exits the loop", "B. Continues the loop", "C. Exits the program", "D. Pauses the loop"],
+            "answer": "A"
+        },
+        {
+            "id": 30,
+            "question": "Which Python keyword is used to create a class?",
+            "options": ["A. def", "B. class", "C. object", "D. new"],
+            "answer": "B"
+        },
+        {
+            "id": 31,
+            "question": "Which of the following is a Python keyword?",
+            "options": ["A. function", "B. loop", "C. class", "D. float"],
+            "answer": "C"
+        },
+        {
+            "id": 32,
+            "question": "How do you start a comment in Python?",
+            "options": ["A. //", "B. <!--", "C. #", "D. ;"],
+            "answer": "C"
+        },
+        {
+            "id": 33,
+            "question": "Which of the following is true about the Python `os` module?",
+            "options": ["A. It allows interaction with the operating system", "B. It is used for mathematical calculations", "C. It handles date and time", "D. It is used for web development"],
+            "answer": "A"
+        },
+        {
+            "id": 34,
+            "question": "Which method is used to remove all elements from a Python list?",
+            "options": ["A. clear()", "B. pop()", "C. remove()", "D. delete()"],
+            "answer": "A"
+        },
+        {
+            "id": 35,
+            "question": "Which Python operator is used to check if two variables are equal?",
+            "options": ["A. =", "B. ==", "C. !=", "D. <"],
+            "answer": "B"
+        },
+        {
+            "id": 36,
+            "question": "Which method is used to find the index of an item in a Python list?",
+            "options": ["A. index()", "B. find()", "C. position()", "D. locate()"],
+            "answer": "A"
+        },
+        {
+            "id": 37,
+            "question": "What is the output of the following code: `print(3 * 'abc')`?",
+            "options": ["A. abcabcabc", "B. abc 3 times", "C. Error", "D. abc, abc, abc"],
+            "answer": "A"
+        },
+        {
+            "id": 38,
+            "question": "Which of the following is NOT a valid Python keyword?",
+            "options": ["A. elif", "B. finally", "C. case", "D. def"],
+            "answer": "C"
+        },
+        {
+            "id": 39,
+            "question": "Which module in Python is used to handle dates and times?",
+            "options": ["A. datetime", "B. time", "C. calendar", "D. date"],
+            "answer": "A"
+        },
+        {
+            "id": 40,
+            "question": "Which of the following is used to install Python packages?",
+            "options": ["A. pip", "B. conda", "C. easy_install", "D. all of the above"],
+            "answer": "D"
+        },
+        {
+            "id": 41,
+            "question": "What will the following Python code output: `print(type(5))`?",
+            "options": ["A. <class 'int'>", "B. <class 'float'>", "C. <class 'str'>", "D. Error"],
+            "answer": "A"
+        },
+        {
+            "id": 42,
+            "question": "What does the Python `range()` function do?",
+            "options": ["A. Generates a list of numbers", "B. Creates a sequence of numbers", "C. Sorts a sequence", "D. Returns a random number"],
+            "answer": "B"
+        },
+        {
+            "id": 43,
+            "question": "What is the result of the following Python expression: `2 ** 3`?",
+            "options": ["A. 5", "B. 6", "C. 8", "D. 9"],
+            "answer": "C"
+        },
+        {
+            "id": 44,
+            "question": "Which of the following is true about Python sets?",
+            "options": ["A. Sets are mutable", "B. Sets are ordered", "C. Sets do not allow duplicates", "D. Sets can have duplicates"],
+            "answer": "C"
+        },
+        {
+            "id": 45,
+            "question": "What is the output of the following code: `print(3 + 4 * 2)`?",
+            "options": ["A. 14", "B. 11", "C. 10", "D. 7"],
+            "answer": "B"
+        },
+        {
+            "id": 46,
+            "question": "Which Python data type is used to store multiple values in a single variable?",
+            "options": ["A. list", "B. tuple", "C. dictionary", "D. all of the above"],
+            "answer": "D"
+        },
+        {
+            "id": 47,
+            "question": "What is the output of the following code: `print('Python'.lower())`?",
+            "options": ["A. python", "B. PYTHON", "C. Python", "D. error"],
+            "answer": "A"
+        },
+        {
+            "id": 48,
+            "question": "Which of the following Python data types is immutable?",
+            "options": ["A. list", "B. dictionary", "C. tuple", "D. set"],
+            "answer": "C"
+        },
+        {
+            "id": 49,
+            "question": "Which function in Python is used to read a file line by line?",
+            "options": ["A. read()", "B. readline()", "C. open()", "D. input()"],
+            "answer": "B"
+        },
+        {
+            "id": 50,
+            "question": "What is the output of the following Python code: `print(5 // 2)`?",
+            "options": ["A. 2.5", "B. 2", "C. 3", "D. 2.0"],
+            "answer": "B"
+        },
+        {
+            "id": 51,
+            "question": "Which of the following statements is true about Python functions?",
+            "options": ["A. Functions must return a value", "B. Functions cannot take arguments", "C. Functions are defined using the `def` keyword", "D. Functions cannot be called more than once"],
+            "answer": "C"
+        },
+        {
+            "id": 52,
+            "question": "Which of the following methods is used to combine two lists in Python?",
+            "options": ["A. append()", "B. extend()", "C. insert()", "D. join()"],
+            "answer": "B"
+        },
+        {
+            "id": 53,
+            "question": "What will be the output of the following code: `print([1, 2, 3] * 2)`?",
+            "options": ["A. [1, 2, 3, 1, 2, 3]", "B. [2, 4, 6]", "C. [1, 2, 3, 4, 5, 6]", "D. error"],
+            "answer": "A"
+        },
+        {
+            "id": 54,
+            "question": "Which Python library is used for web development?",
+            "options": ["A. Flask", "B. TensorFlow", "C. NumPy", "D. SciPy"],
+            "answer": "A"
+        },
+        {
+            "id": 55,
+            "question": "What is the correct way to define a function in Python?",
+            "options": ["A. function my_function():", "B. def my_function():", "C. func my_function():", "D. create function my_function():"],
+            "answer": "B"
+        },
+        {
+            "id": 56,
+            "question": "What does the `continue` keyword do in a Python loop?",
+            "options": ["A. Exits the loop", "B. Skips the rest of the current iteration and continues with the next", "C. Starts a new loop", "D. Pauses the loop"],
+            "answer": "B"
+        },
+        {
+            "id": 57,
+            "question": "What is the output of the following Python code: `print(type([1, 2, 3]))`?",
+            "options": ["A. <class 'list'>", "B. <class 'tuple'>", "C. <class 'set'>", "D. <class 'dict'>"],
+            "answer": "A"
+        },
+        {
+            "id": 58,
+            "question": "What is the result of the following Python code: `print(3 == 3)`?",
+            "options": ["A. True", "B. False", "C. Error", "D. None"],
+            "answer": "A"
+        },
+        {
+            "id": 59,
+            "question": "Which function is used to convert a string to an integer in Python?",
+            "options": ["A. int()", "B. str()", "C. float()", "D. convert()"],
+            "answer": "A"
+        },
+        {
+            "id": 60,
+            "question": "Which of the following is used for pattern matching in Python?",
+            "options": ["A. re module", "B. regex module", "C. search module", "D. match module"],
+            "answer": "A"
+        },
+        {
+            "id": 61,
+            "question": "How do you create a set in Python?",
+            "options": ["A. set([])", "B. {}()", "C. []{}", "D. set()"],
+            "answer": "A"
+        },
+        {
+            "id": 62,
+            "question": "What is the purpose of the `isinstance()` function in Python?",
+            "options": ["A. To check the type of an object", "B. To check if an object is a function", "C. To create a new object", "D. To convert an object into a specified type"],
+            "answer": "A"
+        },
+        {
+            "id": 63,
+            "question": "Which of the following is used to delete an item from a Python dictionary?",
+            "options": ["A. delete()", "B. pop()", "C. remove()", "D. erase()"],
+            "answer": "B"
+        },
+        {
+            "id": 64,
+            "question": "Which Python method is used to join a list into a string?",
+            "options": ["A. join()", "B. split()", "C. concat()", "D. append()"],
+            "answer": "A"
+        },
+        {
+            "id": 65,
+            "question": "What is the result of the following Python expression: `print(10 % 3)`?",
+            "options": ["A. 3", "B. 1", "C. 0", "D. 2"],
+            "answer": "B"
+        },
+        {
+            "id": 66,
+            "question": "Which of the following is used to create a file in Python?",
+            "options": ["A. open()", "B. create()", "C. write()", "D. new()"],
+            "answer": "A"
+        },
+        {
+            "id": 67,
+            "question": "Which of the following is true about Python lists?",
+            "options": ["A. Lists are immutable", "B. Lists can contain different data types", "C. Lists are ordered", "D. Lists are unordered"],
+            "answer": "B"
+        },
+        {
+            "id": 68,
+            "question": "What does the following code do: `input()`?",
+            "options": ["A. Accepts user input", "B. Outputs to the screen", "C. Takes a file input", "D. Loops indefinitely"],
+            "answer": "A"
+        },
+        {
+            "id": 69,
+            "question": "What is the output of the following code: `print(3 < 4)`?",
+            "options": ["A. True", "B. False", "C. 3", "D. 4"],
+            "answer": "A"
         }
-        
+
     ]
 }
