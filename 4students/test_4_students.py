@@ -47,4 +47,3 @@ while True:
     elif retry == 'exit':
         print("Exiting the program. Goodby!")
         break
-        
