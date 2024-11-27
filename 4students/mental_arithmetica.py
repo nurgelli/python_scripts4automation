@@ -10,12 +10,12 @@ def main():
     inter_inp = input('Time interval each displays: ').strip() 
     start_inp = input('Are you ready? yes/no: ').strip().lower()
     
-    if type_game != 1 | 2:
-        print("Please enter 1 or 2: ")
-    elif range_inp != int():
-        print("Please enter digit: ")
-    elif inter_inp != int():
-        print("Please enter digit: ")
+    # if type_game != 1 | 2:
+    #     print("Please enter 1 or 2: ")
+    # elif range_inp != int():
+    #     print("Please enter digit: ")
+    # elif inter_inp != int():
+    #     print("Please enter digit: ")
         
         
     
