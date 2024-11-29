@@ -6,6 +6,10 @@ __pycache__/
 #visual_code settings
 .vscode
 
+*.ipynb/
+.ipynb
+for_test/
+
 # C extensions
 *.so
 
